@@ -45,7 +45,7 @@ app.post('/api/courses',(req,res)=>{
 });
 
 app.put('/api/courses/:id',(req,res)=>{
-    //Look up the course
+    //Look up a course
     //if not existing, return 404
     const course = courses.find(c => c.id === parseInt(req.params.id));
     if(!course) {
