@@ -12,5 +12,9 @@
   "dependencies": {
     "express": "^4.17.1",
     "joi": "^14.3.1"
+  },
+  "engines": {
+    "node": "12.9.0",
+    "npm": "6.10.2"
   }
 }
